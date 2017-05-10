@@ -9,3 +9,5 @@ RUN apt-get update \
   && alien -i oracle-instantclient12.1-basic-12.1.0.2.0-1.x86_64.rpm \
   && alien -i oracle-instantclient12.1-devel-12.1.0.2.0-1.x86_64.rpm \
   && apt-get install -y libaio1
+  
+  
